@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 110, 255);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 71, 165);
+}
+
+body {
+   background: #b4debe;
+   font-family: 'Roboto', 'sans-serif';
+   margin: 0;
+}
+
+.tabela {
+ color: #FFFFFF;
+ background: #363636;
+ position: absolute;
+ border: 2px solid #666666;
+ width: 50%;
+ border-radius: 10px;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.tabela td, .tabela  th {
+  border: 2px solid #666666;
+  padding: 8px;
+}
+
+.tabela thead {
+  font-size: 24px;
+  color: #ff0000;
+}

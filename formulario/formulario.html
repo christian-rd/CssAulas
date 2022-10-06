@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário animais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li><a href="/index.html">Home</a></li>  
+      <li><a href="/formulario/formulario.html">Formulário</a></li>
+      <li><a href="/reservas/reservas.html">Reservas</a></li>
+      <li><a href="/extincoes/extincoes.html">Extinções</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="box">
+      <form target="meu-iframe" action="salvar.html">
+        <fieldset>
+          <legend><strong>Formulário</strong></legend>
+          <br>
+          <div class="inputBox">
+            <label for="animal">Nome do animal:</label>
+            <input id="animal" type="text" name="animal" class="inputTxt" placeholder="Informe o nome do animal"
+              required />
+          </div>
+          <br>
+          <div class="inputBox">
+            <label for="quantidade">Quantidade:</label>
+            <input id="quantidade" type="Number" name="quantidade" class="inputTxt" placeholder="Informe a quantidade"
+              required />
+          </div>
+          <br>
+          <div class="inputBox">
+            <label for="parque">Parque Estadual:</label>
+            <input id="parque" type="text" name="parque" class="inputTxt" placeholder="Informe o nome do Parque"
+              required />
+          </div>
+
+          <br>
+          <div>
+            <label>
+              Estado:
+              <input id="estado" name=estados list=estados placeholder="Selecione o Estado" class="inputTxt" required>
+              <datalist id=estados>
+                <option value="Acre">
+                <option value="Alagoas">
+                <option value="Amapá">
+                <option value="Amazonas">
+                <option value="Ceara">
+                <option value="Distrito Federal">
+                <option value="Espírito Santo">
+                <option value="Goiás">
+                <option value="Maranhão">
+                <option value="Mato Grosso">
+                <option value="Mato Grosso do Sul">
+                <option value="Minas Gerais">
+                <option value="Pará">
+                <option value="Paraíba">
+                <option value="Paraná">
+                <option value="Pernambuco">
+                <option value="Piauí">
+                <option value="Rio de Janeiro">
+                <option value="Rio Grande do Norte">
+                <option value="Rio Grande do Sul">
+                <option value="Rondônia">
+                <option value="Roraima">
+                <option value="Santa Catarina">
+                <option value="São Paulo">
+                <option value="Sergipe">
+                <option value="Tocantins">
+              </datalist>
+            </label>
+          </div>
+          <br>
+          <div class="inputBox">
+            <label>
+              <input type="checkbox" name="autoriza" required /> Você autoriza.
+            </label>
+          </div>
+          <br>
+          <button class="button"><strong>Enviar</strong></button>
+          <br>
+          <iframe id="iframe" name="meu-iframe" style="border:none;" height="35"></iframe>
+          <br>
+        </fieldset>
+      </form>
+
+    </div>
+  </main>
+
+
+</body>
+
+</html>

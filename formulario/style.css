@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 110, 255);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 71, 165);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background:#90cbf3;
+  margin: 0;
+}
+.box {
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #60bbf8;
+  padding: 10px;
+  color: white;
+}
+
+fieldset {
+  border-color: rgb(0, 110, 255);
+}
+
+legend {
+  border-radius: 8px;
+  border: solid 1px rgb(0, 110, 255);
+  text-align: center;
+  padding: 8px;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 18;
+}
+
+.inputbox {
+  position: relative;
+}
+.inputTxt {
+  border: none;
+  background-color: none;
+  border-bottom: 1px solid;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+}
+
+.button {
+  background-color: rgb(0, 110, 255);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+}
+
